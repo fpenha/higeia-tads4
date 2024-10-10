@@ -10,6 +10,6 @@ Para conectar a teoria à prática de forma natural, criaremos um contexto fict�
 
 **FPenha Corporation**, uma holding familiar com participação em grandes empresas espalhadas pelo mundo, nos contratou para desenvolvermos uma solução no qual pudesse **organizar, computacionalmente, os dados** referente aos serviços prestados pelo **Hospital FPenha**, assim como a sua estrutura e fluxos digitalmente. Então, após a discussão com os envolvidos/interessados, os seguintes requisitos foram brevemente capturados para projetarmos um sistema que permita acompanhar o paciente da acolhida (cliente) até a sua alta, registrando todos os dados e oferecendo informações para direcionarmos os procedimentos.
 
-## Iteração-II: Controle dos Leitos e Pacientes
+## Iteração-I: Controle dos Leitos e Pacientes
 
 o hospital precisa de um sistema simples que armazene os dados dos leitos e pacientes em diferentes alas. O sistema deverá permitir o armazenamento de um número fixo, já que cada ala tem um número limitado de leitos.
