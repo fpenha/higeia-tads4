@@ -31,8 +31,14 @@ Estruturas de dados lineares: pilhas, filas, vetores, listas encadeadas, deques,
 
 Imagine o seguinte problema: Como programador, você precisa desenvolver um programa que indique os **leitos** vazio e ocupados de cada **ala** do hospital. Exemplo: “a ala de emergência, que tem 10 leitos, 4 estão ocupados. para a ala de uti, que tem 8 leitos, 3 estão ocupados.”
 
+Imagine o seguinte cenário: como programador, você foi designado para criar um sistema que indique a ocupação dos **leitos** em cada **ala** de um hospital. Por exemplo, o sistema deverá informar algo como: "Na ala de emergência, que possui 10 leitos, 4 estão ocupados. Já na UTI, que possui 8 leitos, 3 estão ocupados."
+
+Para resolver este problema, você pode utilizar **vetores**, uma estrutura de dados muito eficiente para armazenar e acessar informações sequenciais.
+
 #### Definição e Conceito de Vetor
-Um vetor (ou array/arranjos/) é uma estrutura de dados linear que armazena um conjunto de **elemento** do mesmo tipo em uma sequência de posições consecutivas na memória. Cada elemento do vetor pode ser acessado diretamente por meio de um índice, que indica sua posição dentro da estrutura. O índice geralmente começa em 0, significando que o primeiro elemento está na posição 0, o segundo na posição 1, e assim por diante.  
+Um **vetor** (também chamado de **array**, **arranjo** ou **variável indexada**) é uma estrutura de dados linear que armazena um conjunto de elementos do mesmo tipo em posições consecutivas na memória. Cada posição no vetor é referenciada por um índice, que permite o acesso direto ao valor armazenado naquela posição de forma única.
+
+O índice geralmente começa em `0`, o que significa que o primeiro elemento do vetor está na posição `0`, o segundo na posição `1`, e assim sucessivamente.
 
 #### Principais Características de um Vetor   
 - **Tamanho fixo**: O número de elementos que um vetor pode armazenar é determinado no momento de sua criação. Uma vez definido, o tamanho do vetor não pode ser alterado.  
@@ -42,6 +48,7 @@ Um vetor (ou array/arranjos/) é uma estrutura de dados linear que armazena um c
 
 #### Vantagens de um Vetor:
 - **Rapidez no acesso**: Como os elementos podem ser acessados diretamente pelo índice, um vetor permite buscas e acessos a dados de forma muito eficiente.
+- 
 #### Desvantagens de um Vetor:
 - **Tamanho fixo**: A principal desvantagem de um vetor é que ele tem um tamanho fixo, o que pode ser um problema se o número de elementos a serem armazenados não for conhecido previamente.
 - **Dificuldade em inserções e remoções**: Inserir ou remover elementos em qualquer posição, exceto no final, pode ser uma operação lenta, já que todos os elementos subsequentes precisam ser movidos.
